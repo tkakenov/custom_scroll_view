@@ -29,6 +29,9 @@ class UserProfile extends StatelessWidget {
       body: CustomScrollView(
         slivers: [
           SliverAppBar(
+            expandedHeight: 120,
+            pinned: true,
+            floating: true,
             leading: IconButton(
               onPressed: () {},
               icon: const Icon(
